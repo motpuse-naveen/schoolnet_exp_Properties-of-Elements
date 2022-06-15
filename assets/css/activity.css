@@ -161,7 +161,10 @@ table tr td div {
   color: white;
   box-shadow: inset 0 -1px 0px 0px #ffffff !important;
 }
-
+.element_table table tr td div:hover{
+  background: #12D0FC;
+  border: 1px solid #5DB0D1;
+}
 .margin-top-20 {
   margin-top: 20px;
 }
@@ -360,7 +363,8 @@ table tr td p {
   margin-bottom: 0;
   line-height: 1.7;
 }
-.popdown_btn,.popup_btn {
+.popdown_btn,.popup_btn
+ {
   width: 35px;
   height: 35px;
 }
