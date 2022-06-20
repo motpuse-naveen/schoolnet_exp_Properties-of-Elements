@@ -37,15 +37,36 @@ var ActivityShell = (function () {
     },
     LaunchActivity: function () {
       $(".wrapper").addClass("activity");
-      var deviceType = ActivityShell.DeviceType();
-      if (deviceType == "mobile") {
-        //openFullscreen()
-      }
-      $(".container-so.launch").fadeOut();
+      $(".container-so.launch").hide();
       $(".container-so.main").show();
-      this.AdjustContainerHeight();
-      //ScreenSplitter.InitSplitter();
-      GuidedTour.Init();
+      var deviceType = ActivityShell.DeviceType();
+      var Android = /(android)/i.test(navigator.userAgent);
+
+      if (deviceType == "mobile" && Android) {
+        openFullscreen()
+        generatePreloader();
+        setTimeout(function () {
+          $(".preloader").remove();
+          ActivityShell.AdjustContainerHeight();
+          //ScreenSplitter.InitSplitter();
+          GuidedTour.Init();
+          if (zoom1 == null) {
+            hammerItScrollableContent(document.querySelector(".zoom1"));
+            zoom1 = "zoom1";
+          }
+        }, 1000)
+      }
+      else{
+        this.AdjustContainerHeight();
+          //ScreenSplitter.InitSplitter();
+          GuidedTour.Init();
+          if (zoom1 == null) {
+            hammerItScrollableContent(document.querySelector(".zoom1"));
+            zoom1 = "zoom1";
+          }
+
+      }
+   
       //EvaluateAlgebraicExpressions.LaunchActivity();
       /* Scale Spring to fit */
       //ScreenSplitter.ScaleToFit($("#split-0"));
@@ -55,10 +76,7 @@ var ActivityShell = (function () {
       // SpeedVelocityChart.initVelocityVsTime([{ "x": 0, "y": 0 }], 280, 230);
       // SpeedVelocity.Launch();
 
-      if (zoom1 == null) {
-        hammerItScrollableContent(document.querySelector(".zoom1"));
-        zoom1 = "zoom1";
-      }
+
     },
     AdjustContainerHeight: function () {
       var deviceType = ActivityShell.DeviceType();

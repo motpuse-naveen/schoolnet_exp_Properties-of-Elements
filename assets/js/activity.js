@@ -61,7 +61,7 @@ $(document).on("click", "table tr td div", function (event) {
     $("button.popup_btn").css("display","none");
     popupheight=$(".showPop").height();
     bodyheight=$(".exp_body_content").height();
-    if(window.innerWidth >= 1024) {
+    if(window.innerWidth >= 600) {
             $("#split-main.split").css("height",bodyheight-popupheight-30);
             return;
           }
