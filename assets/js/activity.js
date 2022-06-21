@@ -18,7 +18,6 @@ $(document).on("click", "table tr td div", function (event) {
     element_id=$(this).attr("data-id");
     $("table tr td div").removeClass("element_border");
     $(this).addClass("element_border");
-            console.log(element_id);
                 // var list = '<li><span>' + elementInfo[element_id-1].series + '</span></li>';
             
             // var span = $('<span />').attr('data-attr', 'series_"+element_id+"').html('Elway');
@@ -40,6 +39,7 @@ $(document).on("click", "table tr td div", function (event) {
     //     return;
     //   }
     //   $(".container-so.main .exp_body .split").css("height","26%");
+    if(element_id!=undefined && element_id!=null){
     $('.popupContent p span.element_select select>option[value="' + element_id + '"]').prop('selected', true);
     // $(".popupContent p span.element_select").html(elementInfo[element_id-1].series);
     $(".popupContent p span.series").html(elementInfo[element_id-1].series);
@@ -58,6 +58,7 @@ $(document).on("click", "table tr td div", function (event) {
     $(".popupContent p span.mp").html(elementInfo[element_id-1].meltingPoint);
     $(".popupContent p span.block").html(elementInfo[element_id-1].block);
     $(".popupContent p span.valencies").html(elementInfo[element_id-1].valencies);
+    }
     $("button.popup_btn").css("display","none");
     popupheight=$(".showPop").height();
     bodyheight=$(".exp_body_content").height();
@@ -67,10 +68,10 @@ $(document).on("click", "table tr td div", function (event) {
           }
 
   }
+
   $(document).on("change", ".popupContent p span.element_select select", function (event) {
     $(this).find("option:selected").each(function(){
      optionValue = $(this).attr("value");
-        console.log(optionValue);
         $('table tr td div').removeClass("element_border");
         $('table tr td div[data-id="'+optionValue+'"]').addClass("element_border");
         addElementInfo(optionValue);
@@ -91,6 +92,6 @@ $(document).on("click", "table tr td div", function (event) {
     $(".popupContent").addClass("showPop");
     $("button.popup_btn").css("display","none");
     $(".container-so.main .exp_body .split").css("height","100%");
-    // $(".element_table table tr td div").removeClass("element_border");
+    addElementInfo();
   })
   
