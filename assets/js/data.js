@@ -1,12 +1,13 @@
 const elementInfo=[
+
     {
         id:1,
         element:"Hydrogen",
-        series:"Alkali Metals",
+        series:"Nonmetal",
         shells:1,
         symbol:"H",
         atomicRadius:0.79,
-        fillingOrbital:"1s1",
+        fillingOrbital:"1s<sup>1</sup>",
         atomicno:1,
         covalentRadius:0.32,
         electroNegativity:2.2,
@@ -26,7 +27,7 @@ const elementInfo=[
         shells:2,
         symbol:"He",
         atomicRadius:0.49,
-        fillingOrbital:"1s2",
+        fillingOrbital:"1s<sup>2</sup>",
         atomicno:2 ,
         covalentRadius:0.93,
         electroNegativity:0,
@@ -46,7 +47,7 @@ const elementInfo=[
         shells:"2,1",
         symbol:"Li",
         atomicRadius:2.05,
-        fillingOrbital:"2s1",
+        fillingOrbital:"2s<sup>1</sup>",
         atomicno:3,
         covalentRadius:1.23,
         electroNegativity:0.98,
@@ -66,7 +67,7 @@ const elementInfo=[
         shells:"2,2",
         symbol:"Be",
         atomicRadius:1.4,
-        fillingOrbital:"2s2",
+        fillingOrbital:"2s<sup>2</sup>",
         atomicno:4,
         covalentRadius:0.9,
         electroNegativity:1.57,
@@ -86,7 +87,7 @@ const elementInfo=[
         shells:"2,3",
         symbol:"B",
         atomicRadius:1.17,
-        fillingOrbital:"2p1",
+        fillingOrbital:"2p<sup>1</sup>",
         atomicno:5,
         covalentRadius:0.82,
         electroNegativity:2.04,
@@ -106,7 +107,7 @@ const elementInfo=[
         shells:"2,4",
         symbol:"C",
         atomicRadius:0.91,
-        fillingOrbital:"2p2",
+        fillingOrbital:"2p<sup>2</sup>",
         atomicno:6,
         covalentRadius:0.77,
         electroNegativity:2.55,
@@ -117,7 +118,7 @@ const elementInfo=[
         group:"IVA(14)",
         meltingPoint:4827,
         block:"p",
-        valencies:"4,-4"
+        valencies:"4"
     },
     {
         id:7,
@@ -126,7 +127,7 @@ const elementInfo=[
         shells:"2,5",
         symbol:"N",
         atomicRadius:0.75,
-        fillingOrbital:"2p3",
+        fillingOrbital:"2p<sup>3</sup>",
         atomicno:7,
         covalentRadius:0.75,
         electroNegativity:3.04,
@@ -137,7 +138,7 @@ const elementInfo=[
         group:"VA(15)",
         meltingPoint:-195.65,
         block:"p",
-        valencies:-3
+        valencies:"3,5"
     },
     {
         id:8,
@@ -146,7 +147,7 @@ const elementInfo=[
         shells:"2,6",
         symbol:"O",
         atomicRadius:0.65,
-        fillingOrbital:"2p4",
+        fillingOrbital:"2p<sup>4</sup>",
         atomicno:8,
         covalentRadius:0.73,
         electroNegativity:3.44,
@@ -157,7 +158,7 @@ const elementInfo=[
         group:"VIA(16)",
         meltingPoint:-182.82,
         block:"p",
-        valencies:-2
+        valencies:2
     },
     {
         id:9,
@@ -166,7 +167,7 @@ const elementInfo=[
         shells:"2,7",
         symbol:"F",
         atomicRadius:0.57,
-        fillingOrbital:"2p5",
+        fillingOrbital:"2p<sup>5</sup>",
         atomicno:9,
         covalentRadius:0.72,
         electroNegativity:3.98,
@@ -177,7 +178,7 @@ const elementInfo=[
         group:"VIIA(17)",
         meltingPoint:-188.05,
         block:"p",
-        valencies:"null"
+        valencies:"1"
     },
     {
         id:10,
@@ -186,7 +187,7 @@ const elementInfo=[
         shells:"2,8",
         symbol:"Ne",
         atomicRadius:0.51,
-        fillingOrbital:"2p6",
+        fillingOrbital:"2p<sup>6</sup>",
         atomicno:10,
         covalentRadius:0.71,
         electroNegativity:0,
@@ -197,7 +198,7 @@ const elementInfo=[
         group:"0(18)",
         meltingPoint:-245.904,
         block:"p",
-        valencies:"null"
+        valencies:"0"
     },
     {
         id:11,
@@ -206,7 +207,7 @@ const elementInfo=[
         shells:"2,8,1",
         symbol:"Na",
         atomicRadius:2.23,
-        fillingOrbital:"3s1",
+        fillingOrbital:"3s<sup>1</sup>",
         atomicno:11,
         covalentRadius:1.54,
         electroNegativity:0.93,
@@ -226,7 +227,7 @@ const elementInfo=[
         shells:"2,8,2",
         symbol:"Mg",
         atomicRadius:1.72,
-        fillingOrbital:"3s2",
+        fillingOrbital:"3s<sup>2</sup>",
         atomicno:12,
         covalentRadius:1.36,
         electroNegativity:1.31,
@@ -246,7 +247,7 @@ const elementInfo=[
         shells:"2,8,3",
         symbol:"AI",
         atomicRadius:1.82,
-        fillingOrbital:"3p1",
+        fillingOrbital:"3p<sup>1</sup>",
         atomicno:13,
         covalentRadius:1.18,
         electroNegativity:1.61,
@@ -266,7 +267,7 @@ const elementInfo=[
         shells:"2,8,4",
         symbol:"Si",
         atomicRadius:1.46,
-        fillingOrbital:"3p2",
+        fillingOrbital:"3p<sup>2</sup>",
         atomicno:14,
         covalentRadius:1.11,
         electroNegativity:1.9,
@@ -277,7 +278,7 @@ const elementInfo=[
         group:"IVA(14)",
         meltingPoint:2355,
         block:"p",
-        valencies:"4,-4"
+        valencies:"4"
     },
     {
         id:15,
@@ -286,7 +287,7 @@ const elementInfo=[
         shells:"2,8,5",
         symbol:"P",
         atomicRadius:1.23,
-        fillingOrbital:"3p3",
+        fillingOrbital:"3p<sup>3</sup>",
         atomicno:15,
         covalentRadius:1.06,
         electroNegativity:2.19,
@@ -297,7 +298,7 @@ const elementInfo=[
         group:"VA(15)",
         meltingPoint:280,
         block:"p",
-        valencies:-3
+        valencies:"3,5"
     },
     {
         id:16,
@@ -306,7 +307,7 @@ const elementInfo=[
         shells:"2,8,6",
         symbol:"S",
         atomicRadius:1.09,
-        fillingOrbital:"3p4",
+        fillingOrbital:"3p<sup>4</sup>",
         atomicno:16,
         covalentRadius:1.02,
         electroNegativity:2.58,
@@ -317,7 +318,7 @@ const elementInfo=[
         group:"VIA(16)",
         meltingPoint:444.75,
         block:"p",
-        valencies:-2
+        valencies:"2,6"
     },
     {
         id:17,
@@ -326,7 +327,7 @@ const elementInfo=[
         shells:"2,8,7",
         symbol:"Cl",
         atomicRadius:0.97,
-        fillingOrbital:"3p5",
+        fillingOrbital:"3p<sup>5</sup>",
         atomicno:17,
         covalentRadius:0.99,
         electroNegativity:3.16,
@@ -337,7 +338,7 @@ const elementInfo=[
         group:"VIIA(17)",
         meltingPoint:-33.9,
         block:"p",
-        valencies:"null"
+        valencies:"1"
     },
     {
         id:18,
@@ -346,7 +347,7 @@ const elementInfo=[
         shells:"2,8,8",
         symbol:"Ar",
         atomicRadius:0.88,
-        fillingOrbital:"3p6",
+        fillingOrbital:"3p<sup>6</sup>",
         atomicno:18,
         covalentRadius:0.98,
         electroNegativity:0,
@@ -366,7 +367,7 @@ const elementInfo=[
         shells:"2,8,8,1",
         symbol:"K",
         atomicRadius:2.77,
-        fillingOrbital:"4s1",
+        fillingOrbital:"4s<sup>1</sup>",
         atomicno:19,
         covalentRadius:2.03,
         electroNegativity:0.82,
@@ -386,7 +387,7 @@ const elementInfo=[
         shells:"2,8,8,2",
         symbol:"Ca",
         atomicRadius:2.23,
-        fillingOrbital:"4s2",
+        fillingOrbital:"4s<sup>2</sup>",
         atomicno:20,
         covalentRadius:1.74,
         electroNegativity:1,
@@ -406,7 +407,7 @@ const elementInfo=[
         shells:"2,8,9,2",
         symbol:"Sc",
         atomicRadius:2.09,
-        fillingOrbital:"3d1",
+        fillingOrbital:"3d<sup>1</sup>",
         atomicno:21,
         covalentRadius:1.44,
         electroNegativity:1.36,
@@ -426,7 +427,7 @@ const elementInfo=[
         shells:"2,8,10,2",
         symbol:"Ti",
         atomicRadius:2,
-        fillingOrbital:"3d2",
+        fillingOrbital:"3d<sup>2</sup>",
         atomicno:22,
         covalentRadius:1.32,
         electroNegativity:1.54,
@@ -437,7 +438,7 @@ const elementInfo=[
         group:"IVB(4)",
         meltingPoint:3287,
         block:"d",
-        valencies:"2,3,4"
+        valencies:"4"
     },
     {
         id:23,
@@ -446,7 +447,7 @@ const elementInfo=[
         shells:"2,8,11,2",
         symbol:"V",
         atomicRadius:1.92,
-        fillingOrbital:"3d3",
+        fillingOrbital:"3d<sup>3</sup>",
         atomicno:23,
         covalentRadius:1.22,
         electroNegativity:1.63,
@@ -457,7 +458,7 @@ const elementInfo=[
         group:"VB(5)",
         meltingPoint:3409,
         block:"d",
-        valencies:"2,3,4"
+        valencies:"3,4,5"
     },
     {
         id:24,
@@ -466,7 +467,7 @@ const elementInfo=[
         shells:"2,8,13,1",
         symbol:"Cr",
         atomicRadius:1.85,
-        fillingOrbital:"3d5",
+        fillingOrbital:"3d<sup>5</sup>",
         atomicno:24,
         covalentRadius:1.18,
         electroNegativity:1.66,
@@ -486,7 +487,7 @@ const elementInfo=[
         shells:"2,8,13,2",
         symbol:"Mn",
         atomicRadius:1.79,
-        fillingOrbital:"3d5",
+        fillingOrbital:"3d<sup>5</sup>",
         atomicno:25,
         covalentRadius:1.17,
         electroNegativity:1.55,
@@ -497,7 +498,7 @@ const elementInfo=[
         group:"VIIIB(7)",
         meltingPoint:1962,
         block:"d",
-        valencies:"2,3,4"
+        valencies:"2,4,7"
     },
     {
         id:26,
@@ -506,7 +507,7 @@ const elementInfo=[
         shells:"2,8,14,2",
         symbol:"Fe",
         atomicRadius:1.72,
-        fillingOrbital:"3d6",
+        fillingOrbital:"3d<sup>6</sup>",
         atomicno:26,
         covalentRadius:1.17,
         electroNegativity:1.83,
@@ -526,7 +527,7 @@ const elementInfo=[
         shells:"2,8,15,2",
         symbol:"Co",
         atomicRadius:1.67,
-        fillingOrbital:"3d7",
+        fillingOrbital:"3d<sup>7</sup>",
         atomicno:27,
         covalentRadius:1.16,
         electroNegativity:1.88,
@@ -546,7 +547,7 @@ const elementInfo=[
         shells:"2,8,16,2",
         symbol:"Ni",
         atomicRadius:1.62,
-        fillingOrbital:"3d8",
+        fillingOrbital:"3d<sup>8</sup>",
         atomicno:28,
         covalentRadius:1.15,
         electroNegativity:1.91,
@@ -557,7 +558,7 @@ const elementInfo=[
         group:"VIIIB(10)",
         meltingPoint:2732,
         block:"d",
-        valencies:"2,3"
+        valencies:"2"
     },
     {
         id:29,
@@ -566,7 +567,7 @@ const elementInfo=[
         shells:"2,8,18,1",
         symbol:"Cu",
         atomicRadius:1.57,
-        fillingOrbital:"3d10",
+        fillingOrbital:"3d<sup>10</sup>",
         atomicno:29,
         covalentRadius:1.17,
         electroNegativity:1.9,
@@ -586,7 +587,7 @@ const elementInfo=[
         shells:"2,8,18,2",
         symbol:"Zn",
         atomicRadius:1.53,
-        fillingOrbital:"3d10",
+        fillingOrbital:"3d<sup>10</sup>",
         atomicno:30,
         covalentRadius:1.25,
         electroNegativity:1.65,
@@ -606,7 +607,7 @@ const elementInfo=[
         shells:"2,8,18,3",
         symbol:"Ga",
         atomicRadius:1.81,
-        fillingOrbital:"4p1",
+        fillingOrbital:"4p<sup>1</sup>",
         atomicno:31,
         covalentRadius:1.26,
         electroNegativity:1.81,
@@ -626,7 +627,7 @@ const elementInfo=[
         shells:"2,8,18,4",
         symbol:"Ge",
         atomicRadius:1.52,
-        fillingOrbital:"4p2",
+        fillingOrbital:"4p<sup>2</sup>",
         atomicno:32,
         covalentRadius:1.22,
         electroNegativity:2.01,
@@ -637,7 +638,7 @@ const elementInfo=[
         group:"IVA(14)",
         meltingPoint:2830,
         block:"p",
-        valencies:"-4,2,4"
+        valencies:"4"
     },
     {
         id:33,
@@ -646,7 +647,7 @@ const elementInfo=[
         shells:"2,8,18,5",
         symbol:"As",
         atomicRadius:1.33,
-        fillingOrbital:"4p3",
+        fillingOrbital:"4p<sup>3</sup>",
         atomicno:33,
         covalentRadius:1.2,
         electroNegativity:2.18,
@@ -657,7 +658,7 @@ const elementInfo=[
         group:"VA(15)",
         meltingPoint:603    ,
         block:"p",
-        valencies:"-3,3,5"
+        valencies:"3,5"
     },
     {
         id:34,
@@ -666,7 +667,7 @@ const elementInfo=[
         shells:"2,8,18,6",
         symbol:"Se",
         atomicRadius:1.22,
-        fillingOrbital:"4p4",
+        fillingOrbital:"4p<sup>4</sup>",
         atomicno:34,
         covalentRadius:1.16,
         electroNegativity:2.55,
@@ -677,7 +678,7 @@ const elementInfo=[
         group:"VIA(16)",
         meltingPoint:685,
         block:"p",
-        valencies:"-2,4,6"
+        valencies:"2"
     },
     {
         id:35,
@@ -686,7 +687,7 @@ const elementInfo=[
         shells:"2,8,18,7",
         symbol:"Br",
         atomicRadius:1.12,
-        fillingOrbital:"4p5",
+        fillingOrbital:"4p<sup>5</sup>",
         atomicno:35,
         covalentRadius:1.14,
         electroNegativity:2.96,
@@ -697,7 +698,7 @@ const elementInfo=[
         group:"VIIA(17)",
         meltingPoint:59.25,
         block:"p",
-        valencies:"null,1,5"
+        valencies:"1"
     },
     {
         id:36,
@@ -706,7 +707,7 @@ const elementInfo=[
         shells:"2,8,18,8",
         symbol:"Kr",
         atomicRadius:1.03,
-        fillingOrbital:"4p6",
+        fillingOrbital:"4p<sup>6</sup>",
         atomicno:36,
         covalentRadius:1.12,
         electroNegativity:0,
@@ -717,7 +718,7 @@ const elementInfo=[
         group:"0(18)",
         meltingPoint:-153.2,
         block:"p",
-        valencies:0
+        valencies:"0"
     },
     {
         id:37,
@@ -726,7 +727,7 @@ const elementInfo=[
         shells:"2,8,18,8,1",
         symbol:"Rb",
         atomicRadius:2.98,
-        fillingOrbital:"5s1",
+        fillingOrbital:"5s<sup>1</sup>",
         atomicno:37,
         covalentRadius:2.16,
         electroNegativity:0.82,
@@ -746,7 +747,7 @@ const elementInfo=[
         shells:"2,8,18,8,2",
         symbol:"Sr",
         atomicRadius:2.45,
-        fillingOrbital:"5s2",
+        fillingOrbital:"5s<sup>2</sup>",
         atomicno:38,
         covalentRadius:1.91,
         electroNegativity:0.95,
@@ -766,7 +767,7 @@ const elementInfo=[
         shells:"2,8,18,9,2",
         symbol:"Y",
         atomicRadius:2.27,
-        fillingOrbital:"4d1",
+        fillingOrbital:"4d<sup>1</sup>",
         atomicno:39,
         covalentRadius:1.62,
         electroNegativity:1.22,
@@ -786,7 +787,7 @@ const elementInfo=[
         shells:"2,8,18,10,2",
         symbol:"Zr",
         atomicRadius:2.16,
-        fillingOrbital:"4d2",
+        fillingOrbital:"4d<sup>2</sup>",
         atomicno:40,
         covalentRadius:1.45,
         electroNegativity:1.33,
@@ -806,7 +807,7 @@ const elementInfo=[
         shells:"2,8,18,13,1",
         symbol:"Nb",
         atomicRadius:2.08,
-        fillingOrbital:"4d4",
+        fillingOrbital:"4d<sup>4</sup>",
         atomicno:41,
         covalentRadius:1.34,
         electroNegativity:1.6,
@@ -817,7 +818,7 @@ const elementInfo=[
         group:"VB(5)",
         meltingPoint:4744,
         block:"d",
-        valencies:"3,5"
+        valencies:"5"
     },
     {
         id:42,
@@ -826,7 +827,7 @@ const elementInfo=[
         shells:"2,8,18,13,1",
         symbol:"Mo",
         atomicRadius:2.01,
-        fillingOrbital:"4d5",
+        fillingOrbital:"4d<sup>5</sup>",
         atomicno:42,
         covalentRadius:1.3,
         electroNegativity:2.16,
@@ -837,7 +838,7 @@ const elementInfo=[
         group:"VIB(6)",
         meltingPoint:4612,
         block:"d",
-        valencies:"3,6"
+        valencies:"4,6"
     },
     {
         id:43,
@@ -846,7 +847,7 @@ const elementInfo=[
         shells:"2,8,18,14,1",
         symbol:"Tc",
         atomicRadius:1.95,
-        fillingOrbital:"4d6",
+        fillingOrbital:"4d<sup>6</sup>",
         atomicno:43,
         covalentRadius:1.27,
         electroNegativity:1.9,
@@ -857,7 +858,7 @@ const elementInfo=[
         group:"VIIB(7)",
         meltingPoint:4877,
         block:"d",
-        valencies:"4,6,7"
+        valencies:"4,7"
     },
     {
         id:44,
@@ -866,7 +867,7 @@ const elementInfo=[
         shells:"2,8,18,15,1",
         symbol:"Ru",
         atomicRadius:1.89,
-        fillingOrbital:"4d7",
+        fillingOrbital:"4d<sup>7</sup>",
         atomicno:44,
         covalentRadius:1.25,
         electroNegativity:2.2,
@@ -877,7 +878,7 @@ const elementInfo=[
         group:"VIIIB(8)",
         meltingPoint:3900,
         block:"d",
-        valencies:3
+        valencies:"3,4"
     },
     {
         id:45,
@@ -886,7 +887,7 @@ const elementInfo=[
         shells:"2,8,18,16,1",
         symbol:"Rh",
         atomicRadius:1.83,
-        fillingOrbital:"4d8",
+        fillingOrbital:"4d<sup>8</sup>",
         atomicno:45,
         covalentRadius:1.25,
         electroNegativity:2.28,
@@ -906,7 +907,7 @@ const elementInfo=[
         shells:"2,8,18,18",
         symbol:"Pd",
         atomicRadius:1.79,
-        fillingOrbital:"4d10",
+        fillingOrbital:"4d<sup>10</sup>",
         atomicno:46,
         covalentRadius:1.28,
         electroNegativity:2.2,
@@ -926,7 +927,7 @@ const elementInfo=[
         shells:"2,8,18,18,1",
         symbol:"Ag",
         atomicRadius:1.75,
-        fillingOrbital:"4d10",
+        fillingOrbital:"4d<sup>10</sup>",
         atomicno:47,
         covalentRadius:1.34,
         electroNegativity:1.93,
@@ -946,7 +947,7 @@ const elementInfo=[
         shells:"2,8,18,18,2",
         symbol:"Cd",
         atomicRadius:1.71,
-        fillingOrbital:"4d10",
+        fillingOrbital:"4d<sup>10</sup>",
         atomicno:48,
         covalentRadius:1.48,
         electroNegativity:1.69,
@@ -966,7 +967,7 @@ const elementInfo=[
         shells:"2,8,18,18,3",
         symbol:"In",
         atomicRadius:2,
-        fillingOrbital:"5p1",
+        fillingOrbital:"5p<sup>1</sup>",
         atomicno:49,
         covalentRadius:1.44,
         electroNegativity:1.78,
@@ -986,7 +987,7 @@ const elementInfo=[
         shells:"2,8,18,18,4",
         symbol:"Sn",
         atomicRadius:1.72,
-        fillingOrbital:"5p2",
+        fillingOrbital:"5p<sup>2</sup>",
         atomicno:50,
         covalentRadius:1.41,
         electroNegativity:1.96,
@@ -1006,7 +1007,7 @@ const elementInfo=[
         shells:"2,8,18,18,5",
         symbol:"Sb",
         atomicRadius:1.53,
-        fillingOrbital:"5p3",
+        fillingOrbital:"5p<sup>3</sup>",
         atomicno:51,
         covalentRadius:1.4,
         electroNegativity:2.05,
@@ -1017,7 +1018,7 @@ const elementInfo=[
         group:"VA(15)",
         meltingPoint:1587,
         block:"p",
-        valencies:"-3,3"
+        valencies:3
     },
     {
         id:52,
@@ -1026,7 +1027,7 @@ const elementInfo=[
         shells:"2,8,18,18,6",
         symbol:"Te",
         atomicRadius:1.42,
-        fillingOrbital:"5p4",
+        fillingOrbital:"5p<sup>4</sup>",
         atomicno:52,
         covalentRadius:1.36,
         electroNegativity:2.1,
@@ -1037,7 +1038,7 @@ const elementInfo=[
         group:"VIA(16)",
         meltingPoint:988,
         block:"p",
-        valencies:"-2,4,6"
+        valencies:4
     },
     {
         id:53,
@@ -1046,7 +1047,7 @@ const elementInfo=[
         shells:"2,8,18,18,7",
         symbol:"I",
         atomicRadius:1.32,
-        fillingOrbital:"5p5",
+        fillingOrbital:"5p<sup>5</sup>",
         atomicno:53,
         covalentRadius:1.33,
         electroNegativity:2.66,
@@ -1057,7 +1058,7 @@ const elementInfo=[
         group:"VIIA(17)",
         meltingPoint:185.4,
         block:"p",
-        valencies:"null"
+        valencies:"1,5"
     },
     {
         id:54,
@@ -1066,7 +1067,7 @@ const elementInfo=[
         shells:"2,8,18,18,8",
         symbol:"Xe",
         atomicRadius:1.24,
-        fillingOrbital:"5p6",
+        fillingOrbital:"5p<sup>6</sup>",
         atomicno:54,
         covalentRadius:1.31,
         electroNegativity:0,
@@ -1086,7 +1087,7 @@ const elementInfo=[
         shells:"2,8,18,18,8,1",
         symbol:"Cs",
         atomicRadius:3.34,
-        fillingOrbital:"6s1",
+        fillingOrbital:"6s<sup>1</sup>",
         atomicno:55,
         covalentRadius:2.35 ,
         electroNegativity:0.79,
@@ -1106,7 +1107,7 @@ const elementInfo=[
         shells:"2,8,18,18,8,2",
         symbol:"Ba",
         atomicRadius:2.78,
-        fillingOrbital:"6s2",
+        fillingOrbital:"6s<sup>2</sup>",
         atomicno:56,
         covalentRadius:1.98,
         electroNegativity:0.89,
@@ -1126,7 +1127,7 @@ const elementInfo=[
         shells:"2,8,18,18,9,2",
         symbol:"La",
         atomicRadius:2.74,
-        fillingOrbital:"5d1",
+        fillingOrbital:"5d<sup>1</sup>",
         atomicno:57,
         covalentRadius:1.69,
         electroNegativity:1.1,
@@ -1146,7 +1147,7 @@ const elementInfo=[
         shells:"2,8,18,32,10,2",
         symbol:"Hf",
         atomicRadius:2.16,
-        fillingOrbital:"5d2",
+        fillingOrbital:"5d<sup>2</sup>",
         atomicno:72,
         covalentRadius:1.44,
         electroNegativity:1.3,
@@ -1166,7 +1167,7 @@ const elementInfo=[
         shells:"2,8,18,32,11,2",
         symbol:"Ta",
         atomicRadius:2.09,
-        fillingOrbital:"5d3",
+        fillingOrbital:"5d<sup>3</sup>",
         atomicno:73,
         covalentRadius:1.34,
         electroNegativity:1.5,
@@ -1186,7 +1187,7 @@ const elementInfo=[
         shells:"2,8,18,32,12,2",
         symbol:"W",
         atomicRadius:2.02,
-        fillingOrbital:"5d4",
+        fillingOrbital:"5d<sup>4</sup>",
         atomicno:74,
         covalentRadius:1.3,
         electroNegativity:2.36,
@@ -1197,7 +1198,7 @@ const elementInfo=[
         group:"VIB(6)",
         meltingPoint:5655,
         block:"d",
-        valencies:6
+        valencies:"4,6"
     },
     {
         id:61,
@@ -1206,7 +1207,7 @@ const elementInfo=[
         shells:"2,8,18,32,13,2",
         symbol:"Re",
         atomicRadius:1.97,
-        fillingOrbital:"5d5",
+        fillingOrbital:"5d<sup>5</sup>",
         atomicno:75,
         covalentRadius:1.28,
         electroNegativity:1.9,
@@ -1217,7 +1218,7 @@ const elementInfo=[
         group:"VIB(6)",
         meltingPoint:5627,
         block:"d",
-        valencies:"4,6,7"
+        valencies:"3,4,5"
     },
     {
         id:62,
@@ -1226,7 +1227,7 @@ const elementInfo=[
         shells:"2,8,18,32,14,2",
         symbol:"Os",
         atomicRadius:1.92,
-        fillingOrbital:"5d6",
+        fillingOrbital:"5d<sup>6</sup>",
         atomicno:76,
         covalentRadius:1.26,
         electroNegativity:2.2,
@@ -1237,7 +1238,7 @@ const elementInfo=[
         group:"VIIIB(8)",
         meltingPoint:5012,
         block:"d",
-        valencies:"3,4"
+        valencies:4
     },
     {
         id:63,
@@ -1246,7 +1247,7 @@ const elementInfo=[
         shells:"2,8,18,32,15,2",
         symbol:"Ir",
         atomicRadius:1.87,
-        fillingOrbital:"5d7",
+        fillingOrbital:"5d<sup>7</sup>",
         atomicno:77,
         covalentRadius:1.27,
         electroNegativity:2.2,
@@ -1266,7 +1267,7 @@ const elementInfo=[
         shells:"2,8,18,32,17,1",
         symbol:"Pt",
         atomicRadius:1.83,
-        fillingOrbital:"5d9",
+        fillingOrbital:"5d<sup>9</sup>",
         atomicno:78,
         covalentRadius:1.3,
         electroNegativity:2.28,
@@ -1286,7 +1287,7 @@ const elementInfo=[
         shells:"2,8,18,32,18,1",
         symbol:"Au",
         atomicRadius:1.79,
-        fillingOrbital:"5d10",
+        fillingOrbital:"5d<sup>10</sup>",
         atomicno:79,
         covalentRadius:1.34,
         electroNegativity:2.54,
@@ -1297,7 +1298,7 @@ const elementInfo=[
         group:"IB(11)",
         meltingPoint:2807,
         block:"d",
-        valencies:"1,3"
+        valencies:3
     },
     {
         id:66,
@@ -1306,7 +1307,7 @@ const elementInfo=[
         shells:"2,8,18,32,18,2",
         symbol:"Hg",
         atomicRadius:1.76,
-        fillingOrbital:"5d10",
+        fillingOrbital:"5d<sup>10</sup>",
         atomicno:80,
         covalentRadius:1.49,
         electroNegativity:2,
@@ -1326,7 +1327,7 @@ const elementInfo=[
         shells:"2,8,18,32,18,3",
         symbol:"Ti",
         atomicRadius:2.08,
-        fillingOrbital:"6p1",
+        fillingOrbital:"6p<sup>1</sup>",
         atomicno:81,
         covalentRadius:1.48,
         electroNegativity:2.04,
@@ -1346,7 +1347,7 @@ const elementInfo=[
         shells:"2,8,18,32,18,4",
         symbol:"Pb",
         atomicRadius:1.81,
-        fillingOrbital:"6p2",
+        fillingOrbital:"6p<sup>2</sup>",
         atomicno:82,
         covalentRadius:1.47,
         electroNegativity:2.33,
@@ -1357,7 +1358,7 @@ const elementInfo=[
         group:"IVA(14)",
         meltingPoint:1740,
         block:"p",
-        valencies:"2,4"
+        valencies:2
     },
     {
         id:69,
@@ -1366,7 +1367,7 @@ const elementInfo=[
         shells:"2,8,18,32,18,5",
         symbol:"Bi",
         atomicRadius:1.63,
-        fillingOrbital:"6p3",
+        fillingOrbital:"6p<sup>3</sup>",
         atomicno:83,
         covalentRadius:1.46,
         electroNegativity:2.02,
@@ -1377,7 +1378,7 @@ const elementInfo=[
         group:"VA(15)",
         meltingPoint:1564,
         block:"p",
-        valencies:"3,5"
+        valencies:"1,3"
     },
     {
         id:70,
@@ -1386,7 +1387,7 @@ const elementInfo=[
         shells:"2,8,18,32,18,6",
         symbol:"Po",
         atomicRadius:1.53,
-        fillingOrbital:"6p4",
+        fillingOrbital:"6p<sup>4</sup>",
         atomicno:84,
         covalentRadius:1.46,
         electroNegativity:2,
@@ -1397,7 +1398,7 @@ const elementInfo=[
         group:"VIA(16)",
         meltingPoint:962,
         block:"p",
-        valencies:"2,4"
+        valencies:4
     },
     {
         id:71,
@@ -1406,7 +1407,7 @@ const elementInfo=[
         shells:"2,8,18,32,18,7",
         symbol:"At",
         atomicRadius:1.43,
-        fillingOrbital:"6p5",
+        fillingOrbital:"6p<sup>5</sup>",
         atomicno:85,
         covalentRadius:1.45,
         electroNegativity:2.2,
@@ -1417,7 +1418,7 @@ const elementInfo=[
         group:"VIIA(17)",
         meltingPoint:337,
         block:"p",
-        valencies:0
+        valencies:1
     },
     {
         id:72,
@@ -1426,7 +1427,7 @@ const elementInfo=[
         shells:"2,8,18,32,18,8",
         symbol:"Rn",
         atomicRadius:1.34,
-        fillingOrbital:"6p6",
+        fillingOrbital:"6p<sup>6</sup>",
         atomicno:86,
         covalentRadius:"---",
         electroNegativity:0,
@@ -1446,7 +1447,7 @@ const elementInfo=[
         shells:"2,8,18,32,18,8,1",
         symbol:"Fr",
         atomicRadius:"---",
-        fillingOrbital:"7s1",
+        fillingOrbital:"7s<sup>1</sup>",
         atomicno:87,
         covalentRadius:"---",
         electroNegativity:0.7,
@@ -1466,7 +1467,7 @@ const elementInfo=[
         shells:"2,8,18,32,18,8,2",
         symbol:"Ra",
         atomicRadius:"---",
-        fillingOrbital:"7s2",
+        fillingOrbital:"7s<sup>2</sup>",
         atomicno:88,
         covalentRadius:"---",
         electroNegativity:0.9,
@@ -1486,7 +1487,7 @@ const elementInfo=[
         shells:"2,8,18,32,18,9,2",
         symbol:"Ac",
         atomicRadius:"---",
-        fillingOrbital:"6d1",
+        fillingOrbital:"6d<sup>1</sup>",
         atomicno:89,
         covalentRadius:"---",
         electroNegativity:1.1,
@@ -1497,7 +1498,7 @@ const elementInfo=[
         group:"IIIB(3)",
         meltingPoint:3200,
         block:"d",
-        valencies:2
+        valencies:3
     },
     {
         id:76,
@@ -1506,7 +1507,7 @@ const elementInfo=[
         shells:"2,8,18,32,32,10,2",
         symbol:"Rf",
         atomicRadius:"---",
-        fillingOrbital:"6d2",
+        fillingOrbital:"6d<sup>2</sup>",
         atomicno:104,
         covalentRadius:"---",
         electroNegativity:"null",
@@ -1517,7 +1518,7 @@ const elementInfo=[
         group:"IVB(4)",
         meltingPoint:"---",
         block:"d",
-        valencies:2
+        valencies:"3,4"
     },
     {
         id:77,
@@ -1526,7 +1527,7 @@ const elementInfo=[
         shells:"2,8,18,32,32,11,2",
         symbol:"Db",
         atomicRadius:"---",
-        fillingOrbital:"6d3",
+        fillingOrbital:"6d<sup>3</sup>",
         atomicno:105,
         covalentRadius:"---",
         electroNegativity:"null",
@@ -1537,7 +1538,7 @@ const elementInfo=[
         group:"VB(5)",
         meltingPoint:"---",
         block:"d",
-        valencies:2
+        valencies:"4,5"
     },
     {
         id:78,
@@ -1546,7 +1547,7 @@ const elementInfo=[
         shells:"2,8,18,32,32,12,2",
         symbol:"Sg",
         atomicRadius:"---",
-        fillingOrbital:"6d4",
+        fillingOrbital:"6d<sup>4</sup>",
         atomicno:106,
         covalentRadius:"---",
         electroNegativity:"null",
@@ -1557,7 +1558,7 @@ const elementInfo=[
         group:"VIB(6)",
         meltingPoint:"---",
         block:"d",
-        valencies:2
+        valencies:"4,5,6"
     },
     {
         id:79,
@@ -1566,7 +1567,7 @@ const elementInfo=[
         shells:"2,8,18,32,32,13,2",
         symbol:"Bh",
         atomicRadius:"---",
-        fillingOrbital:"6d5",
+        fillingOrbital:"6d<sup>5</sup>",
         atomicno:107,
         covalentRadius:"---",
         electroNegativity:"null",
@@ -1577,7 +1578,7 @@ const elementInfo=[
         group:"VIIB(7)",
         meltingPoint:"---",
         block:"d",
-        valencies:2
+        valencies:"4,5,6,7"
     },
     {
         id:80,
@@ -1586,7 +1587,7 @@ const elementInfo=[
         shells:"2,8,18,32,32,14,2",
         symbol:"Hs",
         atomicRadius:"---",
-        fillingOrbital:"6d6",
+        fillingOrbital:"6d<sup>6</sup>",
         atomicno:108,
         covalentRadius:"---",
         electroNegativity:"null",
@@ -1597,7 +1598,7 @@ const elementInfo=[
         group:"VIIIB(8)",
         meltingPoint:"---",
         block:"d",
-        valencies:2
+        valencies:"4,7"
     },
     {
         id:81,
@@ -1606,7 +1607,7 @@ const elementInfo=[
         shells:"2,8,18,32,32,15,2",
         symbol:"Mt",
         atomicRadius:"---",
-        fillingOrbital:"6d7",
+        fillingOrbital:"6d<sup>7</sup>",
         atomicno:109,
         covalentRadius:"---",
         electroNegativity:"null",
@@ -1617,7 +1618,7 @@ const elementInfo=[
         group:"VIIIB(9)",
         meltingPoint:"---",
         block:"d",
-        valencies:2
+        valencies:"1,2,3,4,5"
     },
     {
         id:82,
@@ -1626,7 +1627,7 @@ const elementInfo=[
         shells:"2,8,18,20,8,2",
         symbol:"Ce",
         atomicRadius:"2.7",
-        fillingOrbital:"4f2",
+        fillingOrbital:"4f<sup>2</sup>",
         atomicno:58,
         covalentRadius:"1.65",
         electroNegativity:"1.12",
@@ -1637,7 +1638,7 @@ const elementInfo=[
         group:"IIIB(3)",
         meltingPoint:3426,
         block:"f",
-        valencies:"3,4"
+        valencies:3
     },
     {
         id:83,
@@ -1646,7 +1647,7 @@ const elementInfo=[
         shells:"2,8,18,21,8,2",
         symbol:"Pr",
         atomicRadius:"2.67",
-        fillingOrbital:"4f3",
+        fillingOrbital:"4f<sup>3</sup>",
         atomicno:59,
         covalentRadius:"1.65",
         electroNegativity:"1.13",
@@ -1666,7 +1667,7 @@ const elementInfo=[
         shells:"2,8,18,22,8,2",
         symbol:"Nd",
         atomicRadius:"2.64",
-        fillingOrbital:"4f4",
+        fillingOrbital:"4f<sup>4</sup>",
         atomicno:60,
         covalentRadius:"1.64",
         electroNegativity:"1.14",
@@ -1686,7 +1687,7 @@ const elementInfo=[
         shells:"2,8,18,23,8,2",
         symbol:"Pm",
         atomicRadius:"2.62",
-        fillingOrbital:"4f5",
+        fillingOrbital:"4f<sup>5</sup>",
         atomicno:61,
         covalentRadius:"1.63",
         electroNegativity:"1.13",
@@ -1706,7 +1707,7 @@ const elementInfo=[
         shells:"2,8,18,24,8,2",
         symbol:"Sm",
         atomicRadius:"2.59",
-        fillingOrbital:"4f6",
+        fillingOrbital:"4f<sup>6</sup>",
         atomicno:62,
         covalentRadius:"1.62",
         electroNegativity:"1.17",
@@ -1717,7 +1718,7 @@ const elementInfo=[
         group:"IIIB(3)",
         meltingPoint:1791,
         block:"f",
-        valencies:"2,3"
+        valencies:3
     },
     {
         id:87,
@@ -1726,7 +1727,7 @@ const elementInfo=[
         shells:"2,8,18,25,8,2",
         symbol:"Eu",
         atomicRadius:"2.56",
-        fillingOrbital:"4f7",
+        fillingOrbital:"4f<sup>7</sup>",
         atomicno:63,
         covalentRadius:"1.85",
         electroNegativity:"1.2",
@@ -1737,7 +1738,7 @@ const elementInfo=[
         group:"IIIB(3)",
         meltingPoint:1597,
         block:"f",
-        valencies:"2,3"
+        valencies:3
     },
     {
         id:88,
@@ -1746,7 +1747,7 @@ const elementInfo=[
         shells:"2,8,18,25,9,2",
         symbol:"Gd",
         atomicRadius:"2.54",
-        fillingOrbital:"4f7",
+        fillingOrbital:"4f<sup>7</sup>",
         atomicno:64,
         covalentRadius:"1.61",
         electroNegativity:"1.2",
@@ -1766,7 +1767,7 @@ const elementInfo=[
         shells:"2,8,18,27,8,2",
         symbol:"Tb",
         atomicRadius:"2.51",
-        fillingOrbital:"4f9",
+        fillingOrbital:"4f<sup>9</sup>",
         atomicno:65,
         covalentRadius:"1.59",
         electroNegativity:"1.2",
@@ -1786,7 +1787,7 @@ const elementInfo=[
         shells:"2,8,18,28,8,2",
         symbol:"Dy",
         atomicRadius:"2.49",
-        fillingOrbital:"4f10",
+        fillingOrbital:"4f<sup>10</sup>",
         atomicno:66,
         covalentRadius:"1.59",
         electroNegativity:"1.22",
@@ -1806,7 +1807,7 @@ const elementInfo=[
         shells:"2,8,18,29,8,2",
         symbol:"Ho",
         atomicRadius:"2.47",
-        fillingOrbital:"4f11",
+        fillingOrbital:"4f<sup>11</sup>",
         atomicno:67,
         covalentRadius:"1.58",
         electroNegativity:"1.23",
@@ -1826,7 +1827,7 @@ const elementInfo=[
         shells:"2,8,18,30,8,2",
         symbol:"Er",
         atomicRadius:"2.45",
-        fillingOrbital:"4f12",
+        fillingOrbital:"4f<sup>12</sup>",
         atomicno:68,
         covalentRadius:"1.57",
         electroNegativity:"1.24",
@@ -1846,7 +1847,7 @@ const elementInfo=[
         shells:"2,8,18,31,8,2",
         symbol:"Tm",
         atomicRadius:"2.42",
-        fillingOrbital:"4f13",
+        fillingOrbital:"4f<sup>13</sup>",
         atomicno:69,
         covalentRadius:"1.56",
         electroNegativity:"1.25",
@@ -1866,7 +1867,7 @@ const elementInfo=[
         shells:"2,8,18,32,8,2",
         symbol:"Yb",
         atomicRadius:"2.4",
-        fillingOrbital:"4f14",
+        fillingOrbital:"4f<sup>14</sup>",
         atomicno:70,
         covalentRadius:"1.74",
         electroNegativity:"1.1",
@@ -1877,16 +1878,16 @@ const elementInfo=[
         group:"IIIB(3)",
         meltingPoint:1194,
         block:"f",
-        valencies:"2,3"
+        valencies:3
     },
     {
         id:95,
-        element:"Lufetium",
+        element:"Lutetium",
         series:"Lanthanides",
         shells:"2,8,18,32,9,2",
         symbol:"Lu",
         atomicRadius:"2.25",
-        fillingOrbital:"4f14",
+        fillingOrbital:"4f<sup>14</sup>",
         atomicno:71,
         covalentRadius:"1.56",
         electroNegativity:"1.27",
@@ -1906,7 +1907,7 @@ const elementInfo=[
         shells:"2,8,18,32,18,10,2",
         symbol:"Th",
         atomicRadius:"---",
-        fillingOrbital:"6d2",
+        fillingOrbital:"6d<sup>2</sup>",
         atomicno:90,
         covalentRadius:"1.65",
         electroNegativity:"1.3",
@@ -1926,7 +1927,7 @@ const elementInfo=[
         shells:"2,8,18,32,20,9,2",
         symbol:"Pa",
         atomicRadius:"---",
-        fillingOrbital:"5f2",
+        fillingOrbital:"5f<sup>2</sup>",
         atomicno:91,
         covalentRadius:"1.42",
         electroNegativity:"1.5",
@@ -1937,7 +1938,7 @@ const elementInfo=[
         group:"IIIB(3)",
         meltingPoint:4027,
         block:"f",
-        valencies:"4,5"
+        valencies:5
     },
     {
         id:98,
@@ -1946,7 +1947,7 @@ const elementInfo=[
         shells:"2,8,18,32,21,9,2",
         symbol:"U",
         atomicRadius:"---",
-        fillingOrbital:"5f3",
+        fillingOrbital:"5f<sup>3</sup>",
         atomicno:92,
         covalentRadius:"---",
         electroNegativity:"1.38",
@@ -1957,7 +1958,7 @@ const elementInfo=[
         group:"IIIB(3)",
         meltingPoint:4134,
         block:"f",
-        valencies:"2,3,4"
+        valencies:"2,6"
     },
     {
         id:99,
@@ -1966,7 +1967,7 @@ const elementInfo=[
         shells:"2,8,18,32,23,8,2",
         symbol:"Np",
         atomicRadius:"---",
-        fillingOrbital:"5f4",
+        fillingOrbital:"5f<sup>4</sup>",
         atomicno:93,
         covalentRadius:"---",
         electroNegativity:"1.36",
@@ -1977,7 +1978,7 @@ const elementInfo=[
         group:"IIIB(3)",
         meltingPoint:3902,
         block:"f",
-        valencies:"3,4,6"
+        valencies:"7"
     },
     {
         id:100,
@@ -1986,7 +1987,7 @@ const elementInfo=[
         shells:"2,8,18,32,24,8,2",
         symbol:"Pu",
         atomicRadius:"---",
-        fillingOrbital:"5f6",
+        fillingOrbital:"5f<sup>6</sup>",
         atomicno:94,
         covalentRadius:"---",
         electroNegativity:"1.28",
@@ -1997,7 +1998,7 @@ const elementInfo=[
         group:"IIIB(3)",
         meltingPoint:3230,
         block:"f",
-        valencies:"3,4,6"
+        valencies:"4,7"
     },
     {
         id:101,
@@ -2006,7 +2007,7 @@ const elementInfo=[
         shells:"2,8,18,32,25,8,2",
         symbol:"Am",
         atomicRadius:"---",
-        fillingOrbital:"5f7",
+        fillingOrbital:"5f<sup>7</sup>",
         atomicno:95,
         covalentRadius:"---",
         electroNegativity:"1.3",
@@ -2017,7 +2018,7 @@ const elementInfo=[
         group:"IIIB(3)",
         meltingPoint:2607,
         block:"f",
-        valencies:"3,4,6"
+        valencies:3
     },
     {
         id:102,
@@ -2026,7 +2027,7 @@ const elementInfo=[
         shells:"2,8,18,32,25,9,2",
         symbol:"Cm",
         atomicRadius:"---",
-        fillingOrbital:"5f7",
+        fillingOrbital:"5f<sup>7</sup>",
         atomicno:96,
         covalentRadius:"---",
         electroNegativity:"1.3",
@@ -2037,7 +2038,7 @@ const elementInfo=[
         group:"IIIB(3)",
         meltingPoint:3110,
         block:"f",
-        valencies:3
+        valencies:"3,5,6"
     },
     {
         id:103,
@@ -2046,7 +2047,7 @@ const elementInfo=[
         shells:"2,8,18,32,26,9,2",
         symbol:"Bk",
         atomicRadius:"---",
-        fillingOrbital:"5f8",
+        fillingOrbital:"5f<sup>8</sup>",
         atomicno:97,
         covalentRadius:"---",
         electroNegativity:"1.3",
@@ -2057,7 +2058,7 @@ const elementInfo=[
         group:"IIIB(3)",
         meltingPoint:"---",
         block:"f",
-        valencies:"3,4"
+        valencies:3
     },
     {
         id:104,
@@ -2066,7 +2067,7 @@ const elementInfo=[
         shells:"2,8,18,32,28,8,2",
         symbol:"Cf",
         atomicRadius:"---",
-        fillingOrbital:"5f9",
+        fillingOrbital:"5f<sup>9</sup>",
         atomicno:98,
         covalentRadius:"---",
         electroNegativity:"1.3",
@@ -2077,7 +2078,7 @@ const elementInfo=[
         group:"IIIB(3)",
         meltingPoint:"---",
         block:"f",
-        valencies:"3"
+        valencies:"3,5"
     },
     {
         id:105,
@@ -2086,7 +2087,7 @@ const elementInfo=[
         shells:"2,8,18,32,29,8,2",
         symbol:"Es",
         atomicRadius:"---",
-        fillingOrbital:"5f11",
+        fillingOrbital:"5f<sup>11</sup>",
         atomicno:99,
         covalentRadius:"---",
         electroNegativity:"1.3",
@@ -2097,7 +2098,7 @@ const elementInfo=[
         group:"IIIB(3)",
         meltingPoint:"---",
         block:"f",
-        valencies:3
+        valencies:"3,4"
     },
     {
         id:106,
@@ -2106,7 +2107,7 @@ const elementInfo=[
         shells:"2,8,18,32,30,8,2",
         symbol:"Fm",
         atomicRadius:"---",
-        fillingOrbital:"5f12",
+        fillingOrbital:"5f<sup>12</sup>",
         atomicno:100,
         covalentRadius:"---",
         electroNegativity:"1.3",
@@ -2117,7 +2118,7 @@ const elementInfo=[
         group:"IIIB(3)",
         meltingPoint:"---",
         block:"f",
-        valencies:3
+        valencies:"3,4"
     },
     {
         id:107,
@@ -2126,7 +2127,7 @@ const elementInfo=[
         shells:"2,8,18,32,31,8,2",
         symbol:"Md",
         atomicRadius:"---",
-        fillingOrbital:"5f13",
+        fillingOrbital:"5f<sup>13</sup>",
         atomicno:101,
         covalentRadius:"---",
         electroNegativity:"1.3",
@@ -2137,7 +2138,7 @@ const elementInfo=[
         group:"IIIB(3)",
         meltingPoint:"---",
         block:"f",
-        valencies:3
+        valencies:"1,3"
     },
     {
         id:108,
@@ -2146,7 +2147,7 @@ const elementInfo=[
         shells:"2,8,18,32,32,8,2",
         symbol:"No",
         atomicRadius:"---",
-        fillingOrbital:"5f14",
+        fillingOrbital:"5f<sup>14</sup>",
         atomicno:102,
         covalentRadius:"---",
         electroNegativity:"1.3",
@@ -2157,7 +2158,7 @@ const elementInfo=[
         group:"IIIB(3)",
         meltingPoint:"---",
         block:"f",
-        valencies:3
+        valencies:2
     },
     {
         id:109,
@@ -2166,7 +2167,7 @@ const elementInfo=[
         shells:"2,8,18,32,32,9,2",
         symbol:"Lr",
         atomicRadius:"---",
-        fillingOrbital:"5f14",
+        fillingOrbital:"5f<sup>14</sup>",
         atomicno:103,
         covalentRadius:"---",
         electroNegativity:"null",
@@ -2177,7 +2178,7 @@ const elementInfo=[
         group:"IIIB(3)",
         meltingPoint:"---",
         block:"f",
-        valencies:3
+        valencies:"2,3"
     },
     
     

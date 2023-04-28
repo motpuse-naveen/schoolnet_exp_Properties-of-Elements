@@ -200,7 +200,7 @@ var ActivityShell = (function () {
       }
     },
     OnOrientationChange: function () {
-      $("#split-main").removeAttr("style");
+      $("#split-main").removeAttr("style");    
       this.AdjustContainerHeight();
       if ($(".popup").is(":visible")) {
         this.AdjustSplitPanelsOnOpenPopup($(".popup:visible"))
@@ -286,6 +286,13 @@ document.ontouchmove = function(event){
 $(window).bind('orientationchange', function () {
   this.setTimeout(function () {
     ActivityShell.OnOrientationChange();
+    popupheight=$(".showPop").height();
+    bodyheight=$(".exp_body_content").height();
+    
+    if(window.innerWidth >= 600) {
+            $("#split-main.split").css("height",bodyheight-popupheight-30);
+            return;
+          }
   }, 200);
 });
 

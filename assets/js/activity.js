@@ -4,6 +4,12 @@ var popupheight;
 var bodyheight;
 
 $(document).ready(function(){
+  $(".popupContent p span.element_select select").append(
+    $('<option selected disabled hidden />', {
+        'value': 'none',
+        'text': 'Select value'
+    })
+  );
     for (var i = 0; i < elementInfo.length; i++) {
         $(".popupContent p span.element_select select").append(
             $('<option />', {

@@ -237,6 +237,7 @@ table tr td div {
   margin-right: 0.5em;
   margin-left: 1em;
   left: 173px;
+  pointer-events: none;
 }
 
 select {
